@@ -1,0 +1,230 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #2f3035;
+    background-image: url(/images/qrids-menu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+
+.menu {
+    display: grid; 
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10,1fr);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.single-menu{
+    flex-basis: 58px;
+    margin-bottom: 20px;
+    border-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.single-menu img{
+    max-width: 180px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.logos {
+    width: 140px;
+    margin-left: 850px;
+
+}
+
+.torskimg{
+    width: 200px;
+    border: 3px solid white;
+    margin: 5px;
+}
+
+.torskimg:hover{
+    border-radius: 50%;
+    transition: 0.4s;
+    width: 300px;
+
+}
+.varmlax {
+    width: 200px;
+    border: 3px solid white;
+    margin: 5px;
+
+}
+
+.varmlax:hover{
+    border-radius: 50%;
+    transition: 0.4s;
+    width: 300px;
+
+}
+
+
+.kräfta{
+    width: 200px;
+    border: 3px solid white;
+    margin: 5px;
+
+}
+
+.kräfta:hover{
+    border-radius: 50%;
+    transition: 0.4s;
+    width: 300px;
+
+}
+
+
+.musslor {
+    width: 200px;
+    border: 3px solid white;
+    margin: 5px;
+
+}
+.musslor:hover{
+    border-radius: 50%;
+    transition: 0.4s;
+    width: 300px;
+
+}
+
+
+.ryggbiff{
+    width: 200px;
+    border: 3px solid white;
+    margin: 5px;
+
+}
+
+.ryggbiff:hover{
+    border-radius: 50%;
+    transition: 0.4s;
+    width: 300px;
+
+}
+
+.färska-Kräftor {
+    width: 200px;
+    border: 3px solid white;
+    margin: 5px;
+}
+
+.färska-Kräftor:hover{
+    border-radius: 50%;
+    transition: 0.4s;
+    width: 300px;
+}
+
+
+.title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.title h4 {
+    text-transform: capitalize;
+    font-size: 50px;
+    position: relative;
+    display: inline-block;
+    color: #F8F9FB;
+    padding-bottom: 10px;
+
+}
+
+.title h4 span{
+    display: block;
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 5px;
+    color: white; 
+}
+
+.title h4:before{
+position: absolute;
+content: "";
+width: 100px;
+height: 2px;
+background-color: #ff7720;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+}
+
+
+
+nav {
+        background-color: rgba(0, 0, 0, 0.322);
+        width: 1024px;
+        text-align: center;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        margin-left: 420px;
+    }
+
+
+
+a {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: weight 700;;
+}
+
+
+nav a {
+    text-decoration: none;
+    font-size: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+
+.homebutton :hover {
+
+    color: blue;
+    font-size: 21px;
+    transition: 0.2s;
+    
+    }
+
+    p{
+        color: white;
+        font-size: 1.1rem;
+        font-weight: 600;
+        ;
+    }
+
+    h4 {
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    footer {
+        background-color: rgba(0, 0, 0, 0.726);;
+        margin-top: 120px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    footer p {
+        font-size: 15px;
+        text-align: center;
+        color: rgb(188, 189, 190);
+        
+        
+    }
+
+
+    
+
+    

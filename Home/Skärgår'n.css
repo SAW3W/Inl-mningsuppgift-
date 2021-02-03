@@ -1,0 +1,123 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #2f3035;
+    background-image: url(/images/ting-tian-_79ZJS8pV70-unsplash.jpg);
+    background-size: 1920px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+img { 
+    width: 13%;
+    margin-right: 5px;
+    
+}
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+
+header {
+        height: 118px;
+        width: 1024px;
+        text-align: center;
+    }
+
+nav {
+        background-color: rgba(0, 0, 0, 0.322);
+        width: 1024px;
+        text-align: center;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        
+    }
+
+main {
+        height: 400px;
+        width: 1024px;
+        text-align: center;
+        padding-top: 60px;
+
+
+        
+    }
+
+footer {
+        background-color: rgba(0, 0, 0, 0.726);;
+        margin-top: 120px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+h1 {
+        font-size: 84px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+p   { 
+    font-size: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+
+.subtitle {
+    width: 600px;
+    margin-left: 230px;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: weight 700;;
+}
+
+.skärgårnlink {
+    font-weight: 550;
+    color:white;
+    font-size: 25px;
+    font-style: italic;
+    text-underline-offset: 3px;
+}
+
+.reservation {
+    font-weight: 700;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+footer p {
+    font-size: 15px;
+    text-align: center;
+    color: rgb(188, 189, 190);
+}
+
+
+.maps {
+    padding-top: 490px;
+}
+
+.homebutton :hover {
+
+color: blue;
+font-size: 19px;
+transition: 0.2s;
+
+}

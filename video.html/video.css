@@ -1,0 +1,116 @@
+html {
+    height: 100%;
+}
+
+body {
+
+    background-color: #2f3035;
+    background-image: url(/images/qrids2resize.jpg);
+    background-size: 1920px;
+    background-repeat: no-repeat;
+    background-position: top;
+    
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.322);
+    width: 1024px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    
+}
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    height: 100vh;
+}
+
+p   { 
+    font-size: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+
+
+a {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: weight 700;;
+}
+
+header {
+    height: 118px;
+    width: 1024px;
+    text-align: center;
+}
+
+img { 
+    width: 13%;
+    margin-right: 5px;
+}
+
+main a{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+main {
+        height: 400px;
+        width: 1024px;
+        text-align: left;
+        padding-top: 60px;
+        font-size: 24px;
+        color: white;
+        margin-right: 620px;
+        
+    }
+
+    nav a {
+        text-decoration: none;
+        font-size: 15px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    
+    .homebutton :hover {
+
+        color: blue;
+        font-size: 19px;
+        transition: 0.2s;
+    
+    }
+
+    
+
+    footer {
+        background-color: rgba(0, 0, 0, 0.726);;
+        margin-top: 120px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+
+    }
+    
+    footer p {
+        font-size: 15px;
+        text-align: center;
+        color: rgb(188, 189, 190);
+    }
+
+
+    iframe{
+        height: 500px;
+        width: 750px;
+        border-radius: 5%;
+        margin-left: 130px;
+        margin-top: 100px;
+    }
+
+
+    
