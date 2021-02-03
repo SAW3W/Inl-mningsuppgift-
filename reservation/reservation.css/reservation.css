@@ -60,7 +60,9 @@ form {
 }
 
 form p {
-    font-weight: 600;
+    font-weight: 600; 
+    padding: 1%;
+
 }
 
 
